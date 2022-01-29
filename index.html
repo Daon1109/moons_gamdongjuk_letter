@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>민지현 생일축하</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="CountDown.js"></script>
+    <script src="nightMODE.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <style>
+         *  {
+                font-family: 'Black Han Sans', sans-serif;
+         }
+    </style>
+
+  </head>
+  <body>
+    <script>
+      function fetchArticle(fileName) {
+        fetch(fileName).then(function(response) {
+          response.text().then(function(text) {
+            document.querySelector('#info').innerHTML=text;
+          })
+        })
+      }
+        function myFunction() {
+        document.body.style.backgroundImage = "url('min_final.png')";
+        }
+        myFunction()
+    </script>
+    <div id="egg">
+        <a href="gamdongjuk_page.html">감동적편지</a><br>
+        <a href="dev.html">개발자</a>
+    </div>
+    <article id="countdown">
+      <div id="align">
+        <span class="timeleft" id="day"></span>
+        <span class="timeleft" id="hour"></span>
+        <span class="timeleft" id="min"></span>
+        <span class="timeleft" id="sec"></span>
+        <span class="timeleft" id="textarti"></span>
+      </div>
+    </article>
+    <span id="sound"></span>
+  </body>
+</html>

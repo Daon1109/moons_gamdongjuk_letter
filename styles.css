@@ -1,0 +1,88 @@
+.head  {
+  font-size: 55px;
+  display:grid;
+  border-bottom:4px gray dotted;
+  padding:15px;
+  /*padding-bottom: 30px;*/
+  margin:0;
+  grid-template-columns:1fr 1000px 1fr;
+}
+#title  {
+  text-align: center;
+}
+#leftalign  {
+  text-align: left;
+}
+#rightalign {
+  text-align: right;
+}
+.congratulations  {
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+#countdown  {
+  display: block;
+  font-size: 65px;
+  padding:60px;
+  padding-top: 25px;
+}
+#sound  {
+  padding:50px;
+}
+.daymode {
+  font-size: 30px;
+  border:5px;
+  border-radius: 25px;
+  color:black;
+  background-color:white;
+}
+#infolink {
+  font-size:50px;
+  padding:15px;
+  margin-top: 20px;
+  margin-right: 40px;
+  color: inherit;
+  background-color:inherit;
+  border: none;
+  text-decoration: none;
+  text-align: right;
+}
+#info {
+  margin-top: 100px;
+  font-size: 30px;
+  padding: 15px;
+  margin-left: 20px;
+  align-self: flex-end;
+}
+#egg  {
+  text-align: end;
+  color: rgb(89, 109, 86);
+}
+a {
+  color:inherit;
+}
+body  {
+  /* Image Location */
+  background-image: url("min_final.png");
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  /* Font Colour */
+  color:black;
+}
+body::after {
+  /* Image Location */
+  background-image: url("min1.jpg");
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  opacity: 0.8;
+}
