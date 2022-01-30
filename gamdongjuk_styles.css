@@ -28,3 +28,37 @@ body::after {
   background-color: #464646;
   opacity: 0.8;
 }
+.Yes_HB  {
+  /* Image Location */
+  background-image: url("gam_min_final.png");
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  /* Font Colour */
+  color:black;
+}
+.No_HB  {
+  /* Image Location */
+  background-image: url("nohorseballon.png");
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  /* Font Colour */
+  color:white;
+}
+#changeimg  {
+  float: right;
+  /* position sticky */
+  position: sticky;
+  top:80px;
+  font-size: 20px;
+}
+
