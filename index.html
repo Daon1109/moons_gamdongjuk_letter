@@ -5,7 +5,7 @@
     <title>민지현 생일축하</title>
     <link rel="stylesheet" href="styles.css">
     <script src="CountDown.js"></script>
-    <script src="nightMODE.js"></script>
+    <script src="changeimg.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     </style>
 
   </head>
-  <body>
+  <body class="Yes_HB">
     <script>
       function fetchArticle(fileName) {
         fetch(fileName).then(function(response) {
@@ -31,9 +31,12 @@
         myFunction()
     </script>
     <div id="egg">
-        <a href="gamdongjuk_page.html">감동적편지</a><br>
-        <a href="dev.html">개발자</a>
+        <a href="gamdongjuk_page.html" title="감동적 편지">감동적편지</a><br>
+        <a href="dev.html" title="개발자">개발자</a>
     </div>
+    <input id="changeimg" type="button" value="화면이 깨져요!" onclick="
+      cImg(this);
+    ">
     <article id="countdown">
       <div id="align">
         <span class="timeleft" id="day"></span>
